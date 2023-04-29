@@ -73,7 +73,7 @@ def app():
         st.session_state["video"] = ""
 
 
-    uploaded_image = st.file_uploader('Upload Image', type=['png', 'jpg'], accept_multiple_files=False, key=None, help=None, on_change=None, disabled=False, label_visibility="visible")
+    uploaded_image = st.file_uploader('Upload Image', type=['png', 'jpeg'], accept_multiple_files=False, key=None, help=None, on_change=None, disabled=False, label_visibility="visible")
 
     if uploaded_image is not None:
         image_bytes_data = uploaded_image.getvalue()
@@ -81,8 +81,8 @@ def app():
         # Convert the image bytes to a base64 encoded string
         image_base64_str = base64.b64encode(image_bytes_data).decode('utf-8')
 
-        # Determine the image format (either 'png' or 'jpg')
-        image_format = 'png' if uploaded_image.type == 'image/png' else 'jpg'
+        # Determine the image format (either 'png' or 'jpeg')
+        image_format = 'png' if uploaded_image.type == 'image/png' else 'jpeg'
 
         # Create a data URI
         image_data_uri = f"data:image/{image_format};base64,{image_base64_str}"
