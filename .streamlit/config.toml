@@ -13,6 +13,7 @@ textColor="#FAFAFA"
 # enableXsrfProtection = false
 # sslCertFile="/Users/danieltremer/Documents/achimbot/server_cert/server.crt"
 # sslKeyFile="/Users/danieltremer/Documents/achimbot/server_cert/server.key"
+maxUploadSize=50
 
 [client]
 showErrorDetails = false

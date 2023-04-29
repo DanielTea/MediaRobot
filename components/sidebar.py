@@ -1,6 +1,7 @@
 import streamlit as st
 
-def sidebar(authenticator):
+# def sidebar(authenticator):
+def sidebar():
     with st.sidebar:
         
         # st.markdown("---")
@@ -15,5 +16,5 @@ def sidebar(authenticator):
         
         st.markdown("Made by Daniel Tremer [LinkedIn](https://www.linkedin.com/in/daniel-tremer/) [GitHub](https://github.com/DanielTea)")
         st.markdown("---")
-        authenticator.logout('Logout', 'main')
+        # authenticator.logout('Logout', 'main')
 
