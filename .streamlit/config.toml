@@ -1,0 +1,18 @@
+[global]
+showWarningOnDirectExecution = false
+
+[theme]
+primaryColor="#FF7903"
+backgroundColor="#31333F"
+secondaryBackgroundColor="#31333F"
+textColor="#FAFAFA"
+
+# [server]
+# enableStaticServing = true
+# enableCORS = false
+# enableXsrfProtection = false
+# sslCertFile="/Users/danieltremer/Documents/achimbot/server_cert/server.crt"
+# sslKeyFile="/Users/danieltremer/Documents/achimbot/server_cert/server.key"
+
+[client]
+showErrorDetails = false

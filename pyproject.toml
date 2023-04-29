@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mediarobot"
+version = "0.1.0"
+description = ""
+authors = ["Daniel T. <info@danieltremer.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.21.0"
+openai = "^0.27.4"
+python-dotenv = "^1.0.0"
+streamlit-authenticator = "^0.2.1"
+replicate = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
